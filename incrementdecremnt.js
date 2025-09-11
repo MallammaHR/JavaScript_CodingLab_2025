@@ -23,6 +23,6 @@ console.log(h);//-89
 
 //pre-decrement
 let v=2;
-let z=v--;
+let z=--v;
 console.log(v);//1
-console.log(z);//2
+console.log(z);//1
