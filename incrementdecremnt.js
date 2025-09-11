@@ -26,3 +26,6 @@ let v=2;
 let z=--v;
 console.log(v);//1
 console.log(z);//1
+
+let total=100;
+console.log(total++);//101
