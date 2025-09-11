@@ -28,4 +28,9 @@ console.log(v);//1
 console.log(z);//1
 
 let total=100;
-console.log(total++);//101
+console.log(total++);//100;
+console.log(total);//101
+
+let num=1000;
+console.log(++num);//1001
+console.log(num);//1001
