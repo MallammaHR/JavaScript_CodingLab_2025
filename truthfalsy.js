@@ -1,0 +1,85 @@
+//8-falsy valuse in JS
+
+//1.false
+if(false)
+{
+    console.log('bye');
+}
+else{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//2.0
+if(0)
+{
+    console.log('bye');
+}
+else
+{
+    console.log('hi');
+}
+//3.-0
+console.log('**************************************************************************')
+if(-0)
+{
+    console.log('bye');
+}
+else{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//4.
+if(undefined)
+{
+    console.log('bye');
+}
+else{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//5.""
+if("")
+{
+    console.log('bye');
+}
+else{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//6-''
+if('')
+{
+    console.log('bye');
+}
+else
+{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//7.null
+if(null)
+{
+    console.log('bye');
+}
+else
+{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//8-Nan
+if(NaN)
+{
+    console.log('bye');
+}
+else{
+    console.log('hi');
+}
+console.log('**************************************************************************')
+//other than anything if we wright everything will be true
+ if('admin')//
+ {
+    console.log('helo');
+ }
+ else{
+    console.log('bye');
+ }
