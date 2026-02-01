@@ -1,0 +1,46 @@
+function startMachine(callback) {
+    setTimeout(() => {
+        console.log('1. Machine started');
+        callback();
+    }, 5000);
+}
+
+function boilWater(callback) {
+    setTimeout(() => {
+        console.log('2. Water bolied');
+        callback();
+    }, 3000);
+}
+
+
+function addCoffeePowder(callback) {
+    setTimeout(() => {
+        console.log('3. Coffee powder added');
+        callback();
+    }, 2000);
+}
+
+function pourInCup(callback) {
+    setTimeout(() => {
+        console.log('4. Poured in cup');
+        callback();
+    }, 2500);
+}
+
+function serveCoffee(callback) {
+    setTimeout(() => {
+        console.log('5. Coffee served');
+        callback();
+    }, 5000);
+}
+//
+
+async function makeCoffe(){
+        await startMachine();
+        await boilWater();
+        await addCoffeePowder();
+        await pourInCup();
+        await serveCoffee();
+        console.log('☕ Coffee is ready... enjoy your coffee!');
+}
+makeCoffe();

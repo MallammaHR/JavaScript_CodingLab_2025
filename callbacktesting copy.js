@@ -64,3 +64,5 @@ let page = openPage('https://www.amazon.com',(title)=>{
     return 'chrome';
 })
 console.log(page);
+
+
