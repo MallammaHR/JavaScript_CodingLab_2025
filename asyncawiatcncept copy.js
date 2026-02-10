@@ -28,4 +28,3 @@ async function showDetails()
     console.log(user);
 }
 showDetails();
-

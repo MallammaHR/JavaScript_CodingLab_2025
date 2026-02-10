@@ -1,14 +1,13 @@
 //simple function:no input and no-return type
-//simple function:no input and no-return type
 
-//named function
+
+//1.named function with zero paramater
 function test(){
     console.log('I-m named function');
 }
 test();
 
-//hoisting for function
-
+//2. hoisting for function
 rest();
 function rest(){
     console.log('i am taking rest');
@@ -38,7 +37,7 @@ getTraineName('Mallu');
  * @param {number} b 
  * @returns 
  */
-//function with input and no-return type
+//function with input and return type
 function sum(a,b){
     let sum = a + b;
     return sum;
