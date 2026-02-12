@@ -35,3 +35,15 @@ console.log(x);
   //call the function 
   getInfo(user)//call by ref
   
+const myObj = 
+{
+   page: "HomePage",
+   user: "Tom"
+};
+
+(async(context)=>{ console.log(context);})(myObj);
+
+(async (context) => {
+   console.log(context);
+})(myObj);
+

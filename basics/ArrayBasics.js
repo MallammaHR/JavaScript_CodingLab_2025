@@ -12,7 +12,7 @@ console.log(empData[8]);
 let number = new Array(5);//single array
 console.log(number.length);
 
-let num =  new Array(2,3,5,6,7)//behave like normal array
+let num =  new Array(2,3,5,6,7,'Manish',true,'f')//behave like normal array
 console.log(num);
 
 let num2= [3,5,6,8,9,0];
@@ -23,7 +23,7 @@ num3 = [100,200,300,400,500,60,0];
 console.log(num3);
 
 let num4 = Array.of(4,5,6,7,8,9);
-console.log(num4);
+console.log(num4);//it will return the "array of objects" 
 
 console.log("=============================================");
 
@@ -32,10 +32,10 @@ a1 =[3,4,5,7,8,9,0,5,6,7,8,9,0,1,10,6,3,7,3,4,5];
 console.log(a1); 
 
 let a2 = Array.of(1,2,3,4,5);
-console.log(a2);
-
 //adding array in Javascript -push()-it will be added at the end
 a2.push(9,7,29);
+console.log(a2);
+a2.pop();
 //unshift-to add at the begining
 a2.unshift('manish','Taanua');
 console.log(a2);

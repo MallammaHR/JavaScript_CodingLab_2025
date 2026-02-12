@@ -14,9 +14,9 @@ getInfo(function() {
     console.log("Getting...");
 });
 
- function getMarks(callback){
+ function getMarks(fun){
     console.log("hi!! getting marks....");
-   // callback(200);
+   fun(200);
     return 500;
  }
 

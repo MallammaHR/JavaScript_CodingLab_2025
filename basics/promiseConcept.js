@@ -1,10 +1,10 @@
 //pedning
-//fullfiled--resolved---it will be given to then()
-//rejecetd-error--it will be given to catch()
+//fullfiled--resolved---it will be given to then(),i willgive the value 
+//rejecetd-error--it will be given to catch(),i will give the erre why 
  
 let myPromise= new Promise((resolve,reject)=>{
     console.log("Start the promise-----------------");
-     let success = false;
+     let success = true;
      if(success)
      {
         resolve('training is done...........')
@@ -14,14 +14,15 @@ let myPromise= new Promise((resolve,reject)=>{
      }
 
 });
-
-myPromise.then(result => {
-     console.log(result);
-}).catch(error =>{
-    console.log(error);
+myPromise.then(result=>{
+    console.log(result);
+}).then(error=>{
+console.log(error);
+}).finally(()=>{
+    console.log('lets Go home....');
 });
 
-
+//example-2
 let cakePromise = new Promise((resolve,rejected)=>{
     console.log("let start making the cake....");
 
