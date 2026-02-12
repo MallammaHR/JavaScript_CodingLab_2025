@@ -85,3 +85,8 @@ console.log(hasEven); // true
 // If none satisfies the condition, returns false
 let oddNumbers = [1, 3, 5];
 console.log(oddNumbers.some(num => num % 2 === 0)); // false
+let fruita = ["banana", "apple", "cherry"];
+fruits.sort(); // ["apple", "banana", "cherry"]
+
+let number12 = [10, 2, 33, 4];
+number12.sort((a, b) => a - b); // [2, 4, 10, 33]
